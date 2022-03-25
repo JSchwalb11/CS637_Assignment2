@@ -1,0 +1,138 @@
+2022-03-24 23:07:09,659 INFO    MainThread:40824 [wandb_setup.py:_flush():75] Loading settings from C:\Users\JoeyS\.config\wandb\settings
+2022-03-24 23:07:09,659 INFO    MainThread:40824 [wandb_setup.py:_flush():75] Loading settings from C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\settings
+2022-03-24 23:07:09,660 INFO    MainThread:40824 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-03-24 23:07:09,660 INFO    MainThread:40824 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'C:/Users/JoeyS/PycharmProjects/CS637_Assignment2/main.py'}
+2022-03-24 23:07:09,660 INFO    MainThread:40824 [wandb_init.py:_log_setup():405] Logging user logs to C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_230709-yvbwu2nv\logs\debug.log
+2022-03-24 23:07:09,661 INFO    MainThread:40824 [wandb_init.py:_log_setup():406] Logging internal logs to C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_230709-yvbwu2nv\logs\debug-internal.log
+2022-03-24 23:07:09,662 INFO    MainThread:40824 [wandb_init.py:init():439] calling init triggers
+2022-03-24 23:07:09,662 INFO    MainThread:40824 [wandb_init.py:init():442] wandb.init called with sweep_config: {}
+config: {}
+2022-03-24 23:07:09,663 INFO    MainThread:40824 [wandb_init.py:init():492] starting backend
+2022-03-24 23:07:09,664 INFO    MainThread:40824 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=spawn, using: spawn
+2022-03-24 23:07:09,672 INFO    MainThread:40824 [backend.py:ensure_launched():219] starting backend process...
+2022-03-24 23:07:09,736 INFO    MainThread:40824 [backend.py:ensure_launched():224] started backend process with pid: 3388
+2022-03-24 23:07:09,736 INFO    MainThread:40824 [wandb_init.py:init():501] backend started and connected
+2022-03-24 23:07:09,740 INFO    MainThread:40824 [wandb_init.py:init():565] updated telemetry
+2022-03-24 23:07:09,742 INFO    MainThread:40824 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-03-24 23:07:10,762 INFO    MainThread:40824 [wandb_run.py:_on_init():1759] communicating current version
+2022-03-24 23:07:10,829 INFO    MainThread:40824 [wandb_run.py:_on_init():1763] got version response 
+2022-03-24 23:07:10,829 INFO    MainThread:40824 [wandb_init.py:init():625] starting run threads in backend
+2022-03-24 23:07:10,915 INFO    MainThread:40824 [wandb_run.py:_console_start():1733] atexit reg
+2022-03-24 23:07:10,916 INFO    MainThread:40824 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.WRAP
+2022-03-24 23:07:10,916 INFO    MainThread:40824 [wandb_run.py:_redirect():1643] Wrapping output streams.
+2022-03-24 23:07:10,917 INFO    MainThread:40824 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-03-24 23:07:10,917 INFO    MainThread:40824 [wandb_init.py:init():664] run started, returning control to user process
+2022-03-24 23:07:11,400 INFO    MainThread:40824 [wandb_run.py:_atexit_cleanup():1702] got exitcode: 1
+2022-03-24 23:07:11,401 INFO    MainThread:40824 [wandb_run.py:_restore():1674] restore
+2022-03-24 23:07:11,947 INFO    MainThread:40824 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 599
+  total_bytes: 599
+}
+
+2022-03-24 23:07:12,181 INFO    MainThread:40824 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 599
+  total_bytes: 599
+}
+
+2022-03-24 23:07:12,801 INFO    MainThread:40824 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 599
+  total_bytes: 2883
+}
+
+2022-03-24 23:07:12,905 INFO    MainThread:40824 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 599
+  total_bytes: 2883
+}
+
+2022-03-24 23:07:13,016 INFO    MainThread:40824 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2857
+  total_bytes: 2883
+}
+
+2022-03-24 23:07:13,124 INFO    MainThread:40824 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2857
+  total_bytes: 2883
+}
+
+2022-03-24 23:07:13,234 INFO    MainThread:40824 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2857
+  total_bytes: 2883
+}
+
+2022-03-24 23:07:13,342 INFO    MainThread:40824 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2883
+  total_bytes: 2883
+}
+
+2022-03-24 23:07:13,451 INFO    MainThread:40824 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2883
+  total_bytes: 2883
+}
+
+2022-03-24 23:07:13,560 INFO    MainThread:40824 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2883
+  total_bytes: 2883
+}
+
+2022-03-24 23:07:13,671 INFO    MainThread:40824 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2883
+  total_bytes: 2883
+}
+
+2022-03-24 23:07:13,788 INFO    MainThread:40824 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2883
+  total_bytes: 2883
+}
+
+2022-03-24 23:07:14,261 INFO    MainThread:40824 [wandb_run.py:_on_finish():1831] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2883
+  total_bytes: 2883
+}
+local_info {
+}
+
+2022-03-24 23:07:15,412 INFO    MainThread:40824 [wandb_run.py:_footer_history_summary_info():2865] rendering history
+2022-03-24 23:07:15,412 INFO    MainThread:40824 [wandb_run.py:_footer_history_summary_info():2894] rendering summary
+2022-03-24 23:07:15,413 INFO    MainThread:40824 [wandb_run.py:_footer_sync_info():2822] logging synced files

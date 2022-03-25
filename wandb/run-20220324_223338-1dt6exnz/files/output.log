@@ -1,0 +1,21 @@
+GPU not available, CPU used
+Sequential(
+  (0): Linear(in_features=18, out_features=25, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=25, out_features=34, bias=True)
+  (3): Sigmoid()
+  (4): Linear(in_features=34, out_features=4, bias=True)
+  (5): ReLU()
+  (6): Linear(in_features=4, out_features=1, bias=True)
+)
+99 8.961085217389839e+202
+199 inf
+299 inf
+399 nan
+499 nan
+599 nan
+699 nan
+799 nan
+899 nan
+999 nan
+Hello World

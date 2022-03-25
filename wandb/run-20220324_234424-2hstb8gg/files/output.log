@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "C:/Users/JoeyS/PycharmProjects/CS637_Assignment2/main.py", line 15, in <module>
+    timestamps, X_train, X_test, derived_x, y_train, y_test = get_data()
+  File "C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\data_loader.py", line 39, in get_data
+    X = preprocessing(data=X, type="PCA")
+  File "C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\data_loader.py", line 17, in preprocessing
+    transformed_data = pca.fit_transform(transformed_data)
+  File "C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\venv\lib\site-packages\sklearn\decomposition\_pca.py", line 407, in fit_transform
+    U, S, Vt = self._fit(X)
+  File "C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\venv\lib\site-packages\sklearn\decomposition\_pca.py", line 459, in _fit
+    return self._fit_truncated(X, n_components, self._fit_svd_solver)
+  File "C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\venv\lib\site-packages\sklearn\decomposition\_pca.py", line 580, in _fit_truncated
+    U, S, Vt = randomized_svd(
+  File "C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\venv\lib\site-packages\sklearn\utils\extmath.py", line 395, in randomized_svd
+    Q = randomized_range_finder(
+  File "C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\venv\lib\site-packages\sklearn\utils\extmath.py", line 237, in randomized_range_finder
+    Q, _ = linalg.lu(safe_sparse_dot(A, Q), permute_l=True)
+  File "C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\venv\lib\site-packages\scipy\linalg\_decomp_lu.py", line 216, in lu
+    p, l, u, info = flu(a1, permute_l=permute_l, overwrite_a=overwrite_a)
+KeyboardInterrupt

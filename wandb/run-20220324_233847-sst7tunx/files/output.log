@@ -1,0 +1,20 @@
+CumSum of PCA Components[0.60190351 0.69893875 0.76173429 0.81536542 0.85420777 0.88897882
+ 0.9137403  0.9362202  0.95589413 0.97287575 0.98703919 0.9955608
+ 0.99746491 0.99864996 0.99932102 0.99974782 0.99999266 1.        ]
+PyDev console: starting.
+array([0.60190351, 0.69893875, 0.76173429, 0.81536542, 0.85420777,
+       0.88897882, 0.9137403 , 0.9362202 , 0.95589413, 0.97287575,
+       0.98703919, 0.9955608 , 0.99746491, 0.99864996, 0.99932102,
+       0.99974782, 0.99999266, 1.        ])
+array([False, False, False, False, False, False, False, False, False,
+       False, False,  True,  True,  True,  True,  True,  True,  True])
+7
+11
+Traceback (most recent call last):
+  File "C:/Users/JoeyS/PycharmProjects/CS637_Assignment2/main.py", line 15, in <module>
+    timestamps, X_train, X_test, derived_x, y_train, y_test = get_data()
+  File "C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\data_loader.py", line 39, in get_data
+    X = preprocessing(data=X, type="PCA")
+  File "C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\data_loader.py", line 29, in preprocessing
+    return transformed_data
+KeyboardInterrupt

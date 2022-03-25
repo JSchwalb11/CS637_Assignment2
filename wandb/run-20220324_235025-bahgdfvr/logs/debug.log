@@ -1,0 +1,238 @@
+2022-03-24 23:50:25,377 INFO    MainThread:2920 [wandb_setup.py:_flush():75] Loading settings from C:\Users\JoeyS\.config\wandb\settings
+2022-03-24 23:50:25,378 INFO    MainThread:2920 [wandb_setup.py:_flush():75] Loading settings from C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\settings
+2022-03-24 23:50:25,378 INFO    MainThread:2920 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-03-24 23:50:25,378 INFO    MainThread:2920 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'C:/Users/JoeyS/PycharmProjects/CS637_Assignment2/main.py'}
+2022-03-24 23:50:25,378 INFO    MainThread:2920 [wandb_init.py:_log_setup():405] Logging user logs to C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_235025-bahgdfvr\logs\debug.log
+2022-03-24 23:50:25,378 INFO    MainThread:2920 [wandb_init.py:_log_setup():406] Logging internal logs to C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_235025-bahgdfvr\logs\debug-internal.log
+2022-03-24 23:50:25,378 INFO    MainThread:2920 [wandb_init.py:init():439] calling init triggers
+2022-03-24 23:50:25,378 INFO    MainThread:2920 [wandb_init.py:init():442] wandb.init called with sweep_config: {}
+config: {}
+2022-03-24 23:50:25,379 INFO    MainThread:2920 [wandb_init.py:init():492] starting backend
+2022-03-24 23:50:25,379 INFO    MainThread:2920 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=spawn, using: spawn
+2022-03-24 23:50:25,383 INFO    MainThread:2920 [backend.py:ensure_launched():219] starting backend process...
+2022-03-24 23:50:25,628 INFO    MainThread:2920 [backend.py:ensure_launched():224] started backend process with pid: 27972
+2022-03-24 23:50:25,628 INFO    MainThread:2920 [wandb_init.py:init():501] backend started and connected
+2022-03-24 23:50:25,633 INFO    MainThread:2920 [wandb_init.py:init():565] updated telemetry
+2022-03-24 23:50:25,634 INFO    MainThread:2920 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-03-24 23:50:26,212 INFO    MainThread:2920 [wandb_run.py:_on_init():1759] communicating current version
+2022-03-24 23:50:26,305 INFO    MainThread:2920 [wandb_run.py:_on_init():1763] got version response 
+2022-03-24 23:50:26,305 INFO    MainThread:2920 [wandb_init.py:init():625] starting run threads in backend
+2022-03-24 23:50:26,410 INFO    MainThread:2920 [wandb_run.py:_console_start():1733] atexit reg
+2022-03-24 23:50:26,411 INFO    MainThread:2920 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.WRAP
+2022-03-24 23:50:26,411 INFO    MainThread:2920 [wandb_run.py:_redirect():1643] Wrapping output streams.
+2022-03-24 23:50:26,412 INFO    MainThread:2920 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-03-24 23:50:26,412 INFO    MainThread:2920 [wandb_init.py:init():664] run started, returning control to user process
+2022-03-24 23:50:26,868 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:27,264 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:27,669 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:28,062 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:28,452 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:28,866 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:29,269 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:29,680 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:30,076 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:30,476 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:30,879 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:31,290 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:31,723 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:32,124 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:32,528 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:32,935 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:33,345 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:33,769 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:34,170 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:34,570 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:34,984 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:35,407 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:35,824 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:36,231 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:36,634 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:37,051 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:37,466 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:37,876 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:38,281 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:38,699 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:39,131 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:39,559 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:39,977 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:40,393 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:40,811 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:41,245 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:41,678 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:42,104 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:42,517 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:42,961 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:43,399 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:43,842 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:44,298 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:44,725 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:45,160 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:45,593 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:46,023 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:46,449 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:46,881 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:47,316 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:47,762 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:48,189 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:48,614 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:49,079 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:49,577 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:50,034 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:50,472 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:50,933 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:51,389 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:51,850 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:52,293 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:52,749 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:53,208 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:53,724 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:54,206 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:54,653 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:55,103 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:55,568 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:56,022 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:56,500 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:57,006 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:57,460 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:57,911 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:58,378 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:58,836 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:59,308 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:50:59,787 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:00,251 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:00,736 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:01,232 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:01,726 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:02,221 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:02,721 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:03,238 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:03,725 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:04,220 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:04,696 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:05,170 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:05,642 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:06,115 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:06,596 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:07,068 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:07,550 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:08,111 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:08,617 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:09,162 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:09,654 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:10,130 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:10,610 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:11,094 INFO    MainThread:2920 [wandb_watch.py:watch():47] Watching
+2022-03-24 23:51:11,098 INFO    MainThread:2920 [wandb_run.py:_atexit_cleanup():1702] got exitcode: 0
+2022-03-24 23:51:11,099 INFO    MainThread:2920 [wandb_run.py:_restore():1674] restore
+2022-03-24 23:51:11,774 INFO    MainThread:2920 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 599
+  total_bytes: 599
+}
+
+2022-03-24 23:51:11,941 INFO    MainThread:2920 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 599
+  total_bytes: 599
+}
+
+2022-03-24 23:51:12,274 INFO    MainThread:2920 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 599
+  total_bytes: 599
+}
+
+2022-03-24 23:51:12,477 INFO    MainThread:2920 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 599
+  total_bytes: 2044
+}
+
+2022-03-24 23:51:12,596 INFO    MainThread:2920 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 599
+  total_bytes: 1340048
+}
+
+2022-03-24 23:51:12,711 INFO    MainThread:2920 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 599
+  total_bytes: 1340048
+}
+
+2022-03-24 23:51:12,818 INFO    MainThread:2920 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 370684
+  total_bytes: 1340048
+}
+
+2022-03-24 23:51:12,927 INFO    MainThread:2920 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1340048
+  total_bytes: 1340048
+}
+
+2022-03-24 23:51:13,037 INFO    MainThread:2920 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1340048
+  total_bytes: 1340048
+}
+
+2022-03-24 23:51:13,147 INFO    MainThread:2920 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1340048
+  total_bytes: 1340048
+}
+
+2022-03-24 23:51:13,256 INFO    MainThread:2920 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1340048
+  total_bytes: 1340048
+}
+
+2022-03-24 23:51:13,408 INFO    MainThread:2920 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1340048
+  total_bytes: 1340048
+}
+
+2022-03-24 23:51:13,730 INFO    MainThread:2920 [wandb_run.py:_on_finish():1831] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1340048
+  total_bytes: 1340048
+}
+local_info {
+}
+
+2022-03-24 23:51:14,922 INFO    MainThread:2920 [wandb_run.py:_footer_history_summary_info():2865] rendering history
+2022-03-24 23:51:14,974 INFO    MainThread:2920 [wandb_run.py:_footer_history_summary_info():2894] rendering summary
+2022-03-24 23:51:14,977 INFO    MainThread:2920 [wandb_run.py:_footer_sync_info():2822] logging synced files

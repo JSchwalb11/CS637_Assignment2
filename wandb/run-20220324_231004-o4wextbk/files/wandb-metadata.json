@@ -1,0 +1,18 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-03-25T04:10:06.240242",
+    "startedAt": "2022-03-25T04:10:04.693320",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1660 Ti",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:/Users/JoeyS/PycharmProjects/CS637_Assignment2/main.py",
+    "codePath": "main.py",
+    "host": "DESKTOP-5ULMNUI",
+    "username": "JoeyS",
+    "executable": "C:\\Users\\JoeyS\\PycharmProjects\\CS637_Assignment2\\venv\\Scripts\\python.exe"
+}

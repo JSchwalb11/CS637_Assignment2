@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:/Users/JoeyS/PycharmProjects/CS637_Assignment2/main.py", line 18, in <module>
+    model, loss_fn = first_model(in_dim=in_dim)
+KeyboardInterrupt

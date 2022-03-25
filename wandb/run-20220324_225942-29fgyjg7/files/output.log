@@ -1,0 +1,21 @@
+Sequential(
+  (0): Linear(in_features=18, out_features=25, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=25, out_features=34, bias=True)
+  (3): Sigmoid()
+  (4): Linear(in_features=34, out_features=4, bias=True)
+  (5): ReLU()
+  (6): Linear(in_features=4, out_features=1, bias=True)
+)
+Traceback (most recent call last):
+  File "C:/Users/JoeyS/PycharmProjects/CS637_Assignment2/main.py", line 28, in <module>
+    y_pred = model(X_train)
+  File "C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\venv\lib\site-packages\torch\nn\modules\module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\venv\lib\site-packages\torch\nn\modules\container.py", line 141, in forward
+    input = module(input)
+  File "C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\venv\lib\site-packages\torch\nn\modules\module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\venv\lib\site-packages\torch\nn\modules\linear.py", line 103, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

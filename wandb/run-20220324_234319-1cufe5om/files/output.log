@@ -1,0 +1,15 @@
+CumSum of PCA Components[0.60190351 0.69893875 0.76173429 0.81536542 0.85420777 0.88897882
+ 0.9137403  0.9362202  0.95589413 0.97287575 0.98703919 0.9955608 ]
+Sequential(
+  (0): Linear(in_features=12, out_features=25, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=25, out_features=34, bias=True)
+  (3): Sigmoid()
+  (4): Linear(in_features=34, out_features=4, bias=True)
+  (5): ReLU()
+  (6): Linear(in_features=4, out_features=1, bias=True)
+)
+Traceback (most recent call last):
+  File "C:/Users/JoeyS/PycharmProjects/CS637_Assignment2/main.py", line 48, in <module>
+    r0 = r2_score(y_train, y_pred.detach().numpy())
+KeyboardInterrupt

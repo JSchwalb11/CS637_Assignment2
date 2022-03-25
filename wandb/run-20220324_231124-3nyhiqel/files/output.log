@@ -1,0 +1,45 @@
+Sequential(
+  (0): Linear(in_features=18, out_features=25, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=25, out_features=34, bias=True)
+  (3): Sigmoid()
+  (4): Linear(in_features=34, out_features=4, bias=True)
+  (5): ReLU()
+  (6): Linear(in_features=4, out_features=1, bias=True)
+)
+PyDev console: starting.
+tensor([[0.2916],
+        [0.2917],
+        [0.2910],
+        ...,
+        [0.2916],
+        [0.2912],
+        [0.2908]], dtype=torch.float64, grad_fn=<AddmmBackward0>)
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2021.2.3\plugins\python\helpers\pydev\_pydevd_bundle\pydevd_exec2.py", line 3, in Exec
+    exec(exp, global_vars, local_vars)
+  File "<input>", line 1, in <module>
+ValueError: only one element tensors can be converted to Python scalars
+tensor([[0.2913],
+        [0.2921],
+        [0.2920],
+        ...,
+        [0.2917],
+        [0.2920],
+        [0.2915]], dtype=torch.float64, grad_fn=<AddmmBackward0>)
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2021.2.3\plugins\python\helpers\pydev\_pydevd_bundle\pydevd_exec2.py", line 3, in Exec
+    exec(exp, global_vars, local_vars)
+  File "<input>", line 1, in <module>
+RuntimeError: Can't call numpy() on Tensor that requires grad. Use tensor.detach().numpy() instead.
+array([[0.29130768],
+       [0.29205147],
+       [0.29200757],
+       ...,
+       [0.29172913],
+       [0.292032  ],
+       [0.29149972]])
+Traceback (most recent call last):
+  File "C:/Users/JoeyS/PycharmProjects/CS637_Assignment2/main.py", line 44, in <module>
+    wandb.log({"train_loss": l0})
+KeyboardInterrupt

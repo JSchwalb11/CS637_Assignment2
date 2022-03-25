@@ -1,0 +1,142 @@
+2022-03-24 23:23:53,238 INFO    MainThread:44272 [internal.py:wandb_internal():92] W&B internal server running at pid: 44272, started at: 2022-03-24 23:23:53.237161
+2022-03-24 23:23:53,240 INFO    WriterThread:44272 [datastore.py:open_for_write():77] open: C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_232351-2lf77rar\run-2lf77rar.wandb
+2022-03-24 23:23:53,244 DEBUG   SenderThread:44272 [sender.py:send():235] send: header
+2022-03-24 23:23:53,244 DEBUG   SenderThread:44272 [sender.py:send():235] send: run
+2022-03-24 23:23:53,414 INFO    SenderThread:44272 [dir_watcher.py:__init__():169] watching files in: C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_232351-2lf77rar\files
+2022-03-24 23:23:53,414 INFO    SenderThread:44272 [sender.py:_start_run_threads():812] run started: 2lf77rar with start time 1648182232
+2022-03-24 23:23:53,414 DEBUG   SenderThread:44272 [sender.py:send():235] send: summary
+2022-03-24 23:23:53,415 INFO    SenderThread:44272 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-24 23:23:53,416 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: check_version
+2022-03-24 23:23:53,416 DEBUG   SenderThread:44272 [sender.py:send_request():249] send_request: check_version
+2022-03-24 23:23:53,499 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: run_start
+2022-03-24 23:23:53,509 DEBUG   HandlerThread:44272 [meta.py:__init__():37] meta init
+2022-03-24 23:23:53,509 DEBUG   HandlerThread:44272 [meta.py:__init__():51] meta init done
+2022-03-24 23:23:53,510 DEBUG   HandlerThread:44272 [meta.py:probe():211] probe
+2022-03-24 23:23:53,592 DEBUG   HandlerThread:44272 [git.py:repo():33] git repository is invalid
+2022-03-24 23:23:53,592 DEBUG   HandlerThread:44272 [meta.py:_save_pip():55] save pip
+2022-03-24 23:23:53,592 DEBUG   HandlerThread:44272 [meta.py:_save_pip():69] save pip done
+2022-03-24 23:23:53,593 DEBUG   HandlerThread:44272 [meta.py:probe():249] probe done
+2022-03-24 23:23:53,600 DEBUG   SenderThread:44272 [sender.py:send():235] send: files
+2022-03-24 23:23:53,600 INFO    SenderThread:44272 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-03-24 23:23:53,611 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-24 23:23:53,611 DEBUG   SenderThread:44272 [sender.py:send_request():249] send_request: stop_status
+2022-03-24 23:23:53,695 DEBUG   SenderThread:44272 [sender.py:send():235] send: telemetry
+2022-03-24 23:23:54,012 INFO    Thread-20 :44272 [upload_job.py:push():137] Uploaded file C:\Users\JoeyS\AppData\Local\Temp\tmp0kuhm_e6wandb\3mqlu6db-wandb-metadata.json
+2022-03-24 23:23:54,094 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-24 23:23:54,095 DEBUG   SenderThread:44272 [sender.py:send():235] send: history
+2022-03-24 23:23:54,095 DEBUG   SenderThread:44272 [sender.py:send():235] send: summary
+2022-03-24 23:23:54,096 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-24 23:23:54,097 INFO    SenderThread:44272 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-24 23:23:54,097 DEBUG   SenderThread:44272 [sender.py:send():235] send: history
+2022-03-24 23:23:54,097 DEBUG   SenderThread:44272 [sender.py:send():235] send: summary
+2022-03-24 23:23:54,098 INFO    SenderThread:44272 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-24 23:23:54,427 INFO    Thread-16 :44272 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_232351-2lf77rar\files\requirements.txt
+2022-03-24 23:23:54,428 INFO    Thread-16 :44272 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_232351-2lf77rar\files\wandb-metadata.json
+2022-03-24 23:23:54,429 INFO    Thread-16 :44272 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_232351-2lf77rar\files\output.log
+2022-03-24 23:23:54,429 INFO    Thread-16 :44272 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_232351-2lf77rar\files\wandb-summary.json
+2022-03-24 23:23:56,443 INFO    Thread-16 :44272 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_232351-2lf77rar\files\output.log
+2022-03-24 23:23:58,716 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-24 23:23:58,720 DEBUG   SenderThread:44272 [sender.py:send():235] send: history
+2022-03-24 23:23:58,722 DEBUG   SenderThread:44272 [sender.py:send():235] send: summary
+2022-03-24 23:23:58,731 INFO    SenderThread:44272 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-24 23:23:59,473 INFO    Thread-16 :44272 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_232351-2lf77rar\files\wandb-summary.json
+2022-03-24 23:23:59,536 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-24 23:23:59,540 DEBUG   SenderThread:44272 [sender.py:send():235] send: history
+2022-03-24 23:23:59,542 DEBUG   SenderThread:44272 [sender.py:send():235] send: summary
+2022-03-24 23:23:59,545 INFO    SenderThread:44272 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-24 23:24:00,105 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-24 23:24:00,109 DEBUG   SenderThread:44272 [sender.py:send():235] send: history
+2022-03-24 23:24:00,111 DEBUG   SenderThread:44272 [sender.py:send():235] send: summary
+2022-03-24 23:24:00,111 INFO    SenderThread:44272 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-24 23:24:00,479 INFO    Thread-16 :44272 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_232351-2lf77rar\files\wandb-summary.json
+2022-03-24 23:24:04,506 WARNING MainThread:44272 [internal.py:wandb_internal():155] Internal process interrupt: 1
+2022-03-24 23:24:04,509 DEBUG   SenderThread:44272 [sender.py:send():235] send: telemetry
+2022-03-24 23:24:04,509 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-24 23:24:05,314 DEBUG   SenderThread:44272 [sender.py:send():235] send: exit
+2022-03-24 23:24:05,315 INFO    SenderThread:44272 [sender.py:send_exit():371] handling exit code: 0
+2022-03-24 23:24:05,315 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-24 23:24:05,315 INFO    SenderThread:44272 [sender.py:send_exit():373] handling runtime: 11
+2022-03-24 23:24:05,316 INFO    SenderThread:44272 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-24 23:24:05,316 INFO    SenderThread:44272 [sender.py:send_exit():379] send defer
+2022-03-24 23:24:05,317 DEBUG   SenderThread:44272 [sender.py:send_request():249] send_request: poll_exit
+2022-03-24 23:24:05,317 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: defer
+2022-03-24 23:24:05,317 INFO    HandlerThread:44272 [handler.py:handle_request_defer():164] handle defer: 0
+2022-03-24 23:24:05,317 DEBUG   SenderThread:44272 [sender.py:send_request():249] send_request: defer
+2022-03-24 23:24:05,317 INFO    SenderThread:44272 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-03-24 23:24:05,317 INFO    SenderThread:44272 [sender.py:transition_state():392] send defer: 1
+2022-03-24 23:24:05,318 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: defer
+2022-03-24 23:24:05,318 INFO    HandlerThread:44272 [handler.py:handle_request_defer():164] handle defer: 1
+2022-03-24 23:24:05,354 DEBUG   SenderThread:44272 [sender.py:send_request():249] send_request: defer
+2022-03-24 23:24:05,355 INFO    SenderThread:44272 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-03-24 23:24:05,355 INFO    SenderThread:44272 [sender.py:transition_state():392] send defer: 2
+2022-03-24 23:24:05,355 DEBUG   SenderThread:44272 [sender.py:send():235] send: stats
+2022-03-24 23:24:05,355 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: defer
+2022-03-24 23:24:05,356 INFO    HandlerThread:44272 [handler.py:handle_request_defer():164] handle defer: 2
+2022-03-24 23:24:05,356 DEBUG   SenderThread:44272 [sender.py:send_request():249] send_request: defer
+2022-03-24 23:24:05,356 INFO    SenderThread:44272 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-03-24 23:24:05,356 INFO    SenderThread:44272 [sender.py:transition_state():392] send defer: 3
+2022-03-24 23:24:05,356 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: defer
+2022-03-24 23:24:05,356 INFO    HandlerThread:44272 [handler.py:handle_request_defer():164] handle defer: 3
+2022-03-24 23:24:05,356 DEBUG   SenderThread:44272 [sender.py:send_request():249] send_request: defer
+2022-03-24 23:24:05,356 INFO    SenderThread:44272 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-03-24 23:24:05,357 INFO    SenderThread:44272 [sender.py:transition_state():392] send defer: 4
+2022-03-24 23:24:05,357 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: defer
+2022-03-24 23:24:05,357 INFO    HandlerThread:44272 [handler.py:handle_request_defer():164] handle defer: 4
+2022-03-24 23:24:05,357 DEBUG   SenderThread:44272 [sender.py:send():235] send: summary
+2022-03-24 23:24:05,358 INFO    SenderThread:44272 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-24 23:24:05,358 DEBUG   SenderThread:44272 [sender.py:send_request():249] send_request: defer
+2022-03-24 23:24:05,358 INFO    SenderThread:44272 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-03-24 23:24:05,358 INFO    SenderThread:44272 [sender.py:transition_state():392] send defer: 5
+2022-03-24 23:24:05,358 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: defer
+2022-03-24 23:24:05,359 INFO    HandlerThread:44272 [handler.py:handle_request_defer():164] handle defer: 5
+2022-03-24 23:24:05,359 DEBUG   SenderThread:44272 [sender.py:send_request():249] send_request: defer
+2022-03-24 23:24:05,359 INFO    SenderThread:44272 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-03-24 23:24:05,431 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-24 23:24:05,512 INFO    SenderThread:44272 [sender.py:transition_state():392] send defer: 6
+2022-03-24 23:24:05,513 DEBUG   SenderThread:44272 [sender.py:send_request():249] send_request: poll_exit
+2022-03-24 23:24:05,513 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: defer
+2022-03-24 23:24:05,513 INFO    HandlerThread:44272 [handler.py:handle_request_defer():164] handle defer: 6
+2022-03-24 23:24:05,514 DEBUG   SenderThread:44272 [sender.py:send_request():249] send_request: defer
+2022-03-24 23:24:05,514 INFO    SenderThread:44272 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-03-24 23:24:05,514 INFO    SenderThread:44272 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-03-24 23:24:05,545 INFO    SenderThread:44272 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_232351-2lf77rar\files\config.yaml
+2022-03-24 23:24:05,547 INFO    SenderThread:44272 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_232351-2lf77rar\files\wandb-summary.json
+2022-03-24 23:24:05,549 INFO    SenderThread:44272 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_232351-2lf77rar\files\output.log
+2022-03-24 23:24:05,551 INFO    SenderThread:44272 [dir_watcher.py:finish():313] scan: C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_232351-2lf77rar\files
+2022-03-24 23:24:05,552 INFO    SenderThread:44272 [dir_watcher.py:finish():327] scan save: C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_232351-2lf77rar\files\config.yaml config.yaml
+2022-03-24 23:24:05,555 INFO    SenderThread:44272 [dir_watcher.py:finish():327] scan save: C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_232351-2lf77rar\files\output.log output.log
+2022-03-24 23:24:05,559 INFO    SenderThread:44272 [dir_watcher.py:finish():327] scan save: C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_232351-2lf77rar\files\requirements.txt requirements.txt
+2022-03-24 23:24:05,583 INFO    SenderThread:44272 [dir_watcher.py:finish():327] scan save: C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_232351-2lf77rar\files\wandb-metadata.json wandb-metadata.json
+2022-03-24 23:24:05,593 INFO    SenderThread:44272 [dir_watcher.py:finish():327] scan save: C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_232351-2lf77rar\files\wandb-summary.json wandb-summary.json
+2022-03-24 23:24:05,596 INFO    SenderThread:44272 [sender.py:transition_state():392] send defer: 7
+2022-03-24 23:24:05,607 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: defer
+2022-03-24 23:24:05,613 INFO    HandlerThread:44272 [handler.py:handle_request_defer():164] handle defer: 7
+2022-03-24 23:24:05,614 DEBUG   SenderThread:44272 [sender.py:send_request():249] send_request: defer
+2022-03-24 23:24:05,614 INFO    SenderThread:44272 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-03-24 23:24:05,615 INFO    SenderThread:44272 [file_pusher.py:finish():145] shutting down file pusher
+2022-03-24 23:24:05,617 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-24 23:24:05,617 DEBUG   SenderThread:44272 [sender.py:send_request():249] send_request: poll_exit
+2022-03-24 23:24:05,731 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-24 23:24:05,734 DEBUG   SenderThread:44272 [sender.py:send_request():249] send_request: poll_exit
+2022-03-24 23:24:05,846 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-24 23:24:05,847 DEBUG   SenderThread:44272 [sender.py:send_request():249] send_request: poll_exit
+2022-03-24 23:24:05,954 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-24 23:24:05,955 DEBUG   SenderThread:44272 [sender.py:send_request():249] send_request: poll_exit
+2022-03-24 23:24:06,051 INFO    Thread-22 :44272 [upload_job.py:push():137] Uploaded file C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_232351-2lf77rar\files\output.log
+2022-03-24 23:24:06,069 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-24 23:24:06,073 INFO    Thread-21 :44272 [upload_job.py:push():137] Uploaded file C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_232351-2lf77rar\files\config.yaml
+2022-03-24 23:24:06,079 DEBUG   SenderThread:44272 [sender.py:send_request():249] send_request: poll_exit
+2022-03-24 23:24:06,079 INFO    Thread-23 :44272 [upload_job.py:push():137] Uploaded file C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_232351-2lf77rar\files\requirements.txt
+2022-03-24 23:24:06,189 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-24 23:24:06,190 DEBUG   SenderThread:44272 [sender.py:send_request():249] send_request: poll_exit
+2022-03-24 23:24:06,210 INFO    Thread-24 :44272 [upload_job.py:push():137] Uploaded file C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\wandb\run-20220324_232351-2lf77rar\files\wandb-summary.json
+2022-03-24 23:24:06,300 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-24 23:24:06,301 DEBUG   SenderThread:44272 [sender.py:send_request():249] send_request: poll_exit
+2022-03-24 23:24:06,410 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-24 23:24:06,411 DEBUG   SenderThread:44272 [sender.py:send_request():249] send_request: poll_exit
+2022-03-24 23:24:06,425 INFO    Thread-15 :44272 [sender.py:transition_state():392] send defer: 8
+2022-03-24 23:24:06,427 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: defer
+2022-03-24 23:24:06,428 INFO    HandlerThread:44272 [handler.py:handle_request_defer():164] handle defer: 8
+2022-03-24 23:24:06,429 DEBUG   SenderThread:44272 [sender.py:send_request():249] send_request: defer
+2022-03-24 23:24:06,429 INFO    SenderThread:44272 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-03-24 23:24:06,519 DEBUG   HandlerThread:44272 [handler.py:handle_request():141] handle_request: poll_exit

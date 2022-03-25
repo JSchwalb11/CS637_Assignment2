@@ -1,0 +1,20 @@
+Sequential(
+  (0): Linear(in_features=18, out_features=25, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=25, out_features=34, bias=True)
+  (3): Sigmoid()
+  (4): Linear(in_features=34, out_features=4, bias=True)
+  (5): ReLU()
+  (6): Linear(in_features=4, out_features=1, bias=True)
+)
+99 188.3877076609826
+199 188.3877076609826
+299 188.3877076609826
+399 188.3877076609826
+499 188.3877076609826
+599 188.3877076609826
+699 188.3877076609826
+799 188.3877076609826
+899 188.3877076609826
+999 188.3877076609826
+Hello World

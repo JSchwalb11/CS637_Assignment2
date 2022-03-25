@@ -1,0 +1,20 @@
+Sequential(
+  (0): Linear(in_features=18, out_features=25, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=25, out_features=34, bias=True)
+  (3): Sigmoid()
+  (4): Linear(in_features=34, out_features=4, bias=True)
+  (5): ReLU()
+  (6): Linear(in_features=4, out_features=1, bias=True)
+)
+99 189.44410444005263
+199 188.31007441407235
+299 187.20223524881592
+399 186.07409332779423
+499 184.8837127911027
+599 183.5924533994766
+699 182.14441230271922
+799 180.50099035288338
+899 178.6308904796125
+999 176.5554618414236
+Hello World

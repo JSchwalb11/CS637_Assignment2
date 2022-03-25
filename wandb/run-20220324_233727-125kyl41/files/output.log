@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:/Users/JoeyS/PycharmProjects/CS637_Assignment2/main.py", line 15, in <module>
+    timestamps, X_train, X_test, derived_x, y_train, y_test = get_data()
+  File "C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\data_loader.py", line 39, in get_data
+    X = preprocessing(data=X, type="MinMax")
+  File "C:\Users\JoeyS\PycharmProjects\CS637_Assignment2\data_loader.py", line 29, in preprocessing
+    return transformed_data
+KeyboardInterrupt
