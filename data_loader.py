@@ -8,15 +8,30 @@ from sklearn.decomposition import PCA
 from matplotlib import pyplot as plt
 import plotly.express as px
 
+def numpy_to_tensor(np_arr):
+    return torch.from_numpy(np_arr)
 
-def preprocessing(data, type="PCA", plot=False):
-    scaler = MinMaxScaler()
-    transformed_data = scaler.fit_transform(data)
+def preprocessing(X, y, type="Scaler", plot=False, TEST_SIZE=0.2):
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=TEST_SIZE, random_state=42)
 
-    if type == "PCA":
+    if type == "Scaler":
+        scaler = MinMaxScaler()
+        X_train_transformed = scaler.fit_transform(X_train)
+        X_test_transformed = scaler.transform(X_test)
+        y_train_transformed = scaler.fit_transform(y_train)
+        y_test_transformed = scaler.transform(y_test)
+        #y_train_transformed = y_train.values  # no-op
+        #y_test_transformed = y_test.values  # no-op
+
+
+    elif type == "PCA":
         num_components=12
         pca = PCA(n_components=num_components)
-        transformed_data = pca.fit_transform(transformed_data)
+        X_train_transformed = pca.fit_transform(X_train)
+        X_test_transformed = pca.transform(X_test)
+        y_train_transformed = y_train.values  # no-op
+        y_test_transformed = y_test.values  # no-op
+
         if plot==True:
             evr = pca.explained_variance_ratio_
             plt.figure()
@@ -37,16 +52,32 @@ def preprocessing(data, type="PCA", plot=False):
             #plt.savefig(title)
             plt.show()
 
+    else:
+        X_train_transformed, X_test_transformed, y_train_transformed, y_test_transformed = X_train, X_test, y_train, y_test
 
-    return transformed_data
+
+    return X_train_transformed, X_test_transformed, y_train_transformed, y_test_transformed
 
 
 
-def get_data(TEST_SIZE=0.2, split=True, plot=False, plot_distributions=False):
+def get_data(TEST_SIZE=0.2, split=True, plot=False, plot_distributions=False, return_constants=False):
     path = os.path.join(os.getcwd(), "data")
     fp = os.path.join(path, "Untitled spreadsheet - Terres_Li_Sample_Data_Set.csv")
+    fp1 = os.path.join(path, "v2_Terres_Li_Sample_Data_Set - Terres_Li_Sample_Data_Set_Appended.csv")
     df = pd.read_csv(fp)
-    timestamps, X, derived_x, y = separate_columns(df)
+    df1 = pd.read_csv(fp1)
+    df2 = pd.concat([df, df1])
+
+    constants = {
+        'mu_0': df['8.85E-12'][0],
+        'm_p': df['8.85E-12'][1],
+        'm_pe': df['8.85E-12'][2],
+        'e': df['8.85E-12'][3],
+        'k_b': df['8.85E-12'][4],
+        'c': df['8.85E-12'][5]
+    }
+    #timestamps, X, derived_x, y = separate_columns(df)
+    timestamps, X, derived_x, y = separate_columns(df2)
 
     if plot_distributions==True:
         for i, key in enumerate(X.keys()):
@@ -54,20 +85,25 @@ def get_data(TEST_SIZE=0.2, split=True, plot=False, plot_distributions=False):
             fig.show()
 
     #X = preprocessing(data=X, type="PCA", plot=plot)
-    X = preprocessing(data=X, type="None")
-    y = preprocessing(data=y, type="None")
+    #X = preprocessing(data=X, type="None")
+    #y = preprocessing(data=y, type="None")
+    X_train, X_test, y_train, y_test = preprocessing(X, y, "Scaler", TEST_SIZE=0.25)
 
-
-    X = torch.from_numpy(X)
-    derived_x = torch.from_numpy(derived_x.values)
-    y = torch.from_numpy(y)
+    X_train = numpy_to_tensor(X_train)
+    X_test = numpy_to_tensor(X_test)
+    y_train = numpy_to_tensor(y_train)
+    y_test = numpy_to_tensor(y_test)
 
     if split == True:
-        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=TEST_SIZE, random_state=42)
         return timestamps, X_train, X_test, derived_x, y_train, y_test
+
+    elif return_constants == True and split == False:
+        return timestamps, X, derived_x, y, constants
 
     else:
         return timestamps, X, derived_x, y
+
+
 
 def separate_columns(df):
     # columns 0, 1
